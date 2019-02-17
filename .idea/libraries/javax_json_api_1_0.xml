@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="javax.json-api-1.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/jars/javax.json-api-1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/libs/javadoc/jsoup-1.9.2-javadoc.jar!/" />
+    </JAVADOC>
+    <NATIVE>
+      <root url="file://$PROJECT_DIR$/libs/natives/windows" />
+    </NATIVE>
+    <SOURCES />
+  </library>
+</component>
