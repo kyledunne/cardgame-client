@@ -1,5 +1,7 @@
-package main
+package kot2d
 
+import kot2d.Color
+import org.lwjgl.opengl.Display
 import java.util.Random
 
 object Util {

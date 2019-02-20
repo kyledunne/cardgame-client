@@ -1,12 +1,19 @@
 package kot2d
 
+/*
+package kot2d
+
+import gui.GUIMain
+import gui.Input
+import old.Color
+import old.LayeredContainer
+import old.layoutManagers.CoordinatesLayout
 import org.lwjgl.input.Keyboard
 import org.lwjgl.opengl.Display
 import org.lwjgl.opengl.GL11
 
 lateinit var exitCondition: () -> Boolean
 lateinit var checkEvents: () -> Unit
-lateinit var WINDOW: LayeredContainer
 
 fun init() {
     Display.setFullscreen(true)
@@ -26,10 +33,6 @@ fun init() {
     GL11.glShadeModel(GL11.GL_SMOOTH)
     GL11.glDisable(GL11.GL_LIGHTING)
     GL11.glClearDepth(1.0)
-
-    WINDOW = LayeredContainer(null, null, CoordinatesLayout())
-    WINDOW.w = Display.getWidth().toFloat()
-    WINDOW.h = Display.getHeight().toFloat()
 }
 
 fun loop(checkEvents: () -> Unit,
@@ -38,15 +41,16 @@ fun loop(checkEvents: () -> Unit,
     kot2d.checkEvents = checkEvents
 
     GL11.glClear(GL11.GL_COLOR_BUFFER_BIT)
-    WINDOW.draw()
+    GUIMain.WINDOW.draw()
     Display.update()
 
     while (!kot2d.exitCondition()) {
         GL11.glClear(GL11.GL_COLOR_BUFFER_BIT)
         Input.checkInputs()
         kot2d.checkEvents()
-        WINDOW.draw()
+        GUIMain.WINDOW.draw()
         Display.sync(60)
         Display.update()
     }
 }
+ */
