@@ -1,4 +1,4 @@
-package main
+package old
 
 /*import gui.GUIMain
 import gui.Input
